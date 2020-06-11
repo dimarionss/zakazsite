@@ -9,7 +9,6 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -92,19 +91,10 @@ h6 {
 .offborder {
   width: 328px;
   height: 317px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   position: relative;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -119,8 +109,7 @@ h6 {
 }
 
 .offborder h2.old_price {
-  -webkit-text-decoration: line-through #000;
-          text-decoration: line-through #000;
+  text-decoration: line-through #000;
   margin: 30px 0 0 0;
 }
 
@@ -165,13 +154,11 @@ h6 {
 
 .sd__offer1,
 .sd__offer2 {
-  -webkit-box-shadow: 0px 0px 12px #c93e4d;
-          box-shadow: 0px 0px 12px #c93e4d;
+  box-shadow: 0px 0px 12px #c93e4d;
 }
 
 .sd__offer3 {
-  -webkit-box-shadow: 0px 0px 12px #37023a;
-          box-shadow: 0px 0px 12px #37023a;
+  box-shadow: 0px 0px 12px #37023a;
 }
 
 .finger__background {
@@ -253,40 +240,28 @@ body {
   color: #000;
 }
 
-.countdown-title {
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
-}
-
 .countdown {
-  font-family: sans-serif;
-  color: #fff;
   display: inline-block;
-  font-weight: 100;
   text-align: center;
-  font-size: 30px;
 }
 
 .countdown-number {
-  padding: 10px;
-  border-radius: 3px;
-  background: #00bf96;
   display: inline-block;
 }
 
 .countdown-time {
   padding: 15px;
-  border-radius: 3px;
-  background: #00816a;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000;
   display: inline-block;
 }
 
 .countdown-text {
   display: block;
-  padding-top: 5px;
-  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 37px;
+  color: #000;
 }
 
 .button {
@@ -300,15 +275,12 @@ body {
   color: #fff;
   letter-spacing: 1px;
   font-size: 25px;
-  -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
   font-weight: 300;
 }
 
 .button input:hover {
-  -webkit-box-shadow: 0px 0px 12px #c93e4d;
-          box-shadow: 0px 0px 12px #c93e4d;
-  -webkit-transition: all ease 0.3s;
+  box-shadow: 0px 0px 12px #c93e4d;
   transition: all ease 0.3s;
 }
 
@@ -316,21 +288,14 @@ body {
   width: 81px;
   height: 81px;
   background: #ff808e;
-  -webkit-box-shadow: 0px 0px 25px;
-          box-shadow: 0px 0px 25px;
+  box-shadow: 0px 0px 25px;
   border-radius: 50%;
 }
 
 .arround__galka {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 40px;
 }
@@ -368,15 +333,9 @@ body {
 }
 
 .zayavka__text .middle__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -386,15 +345,9 @@ body {
 }
 
 .form__section p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .input {
@@ -405,24 +358,6 @@ body {
   margin-bottom: 15px;
 }
 
-.input::-webkit-input-placeholder {
-  font-weight: 200;
-  font-size: 17px;
-  color: #000000;
-}
-
-.input:-ms-input-placeholder {
-  font-weight: 200;
-  font-size: 17px;
-  color: #000000;
-}
-
-.input::-ms-input-placeholder {
-  font-weight: 200;
-  font-size: 17px;
-  color: #000000;
-}
-
 .input::placeholder {
   font-weight: 200;
   font-size: 17px;
@@ -430,15 +365,9 @@ body {
 }
 
 .block__buttompay {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .block__buttompay .buttom__pay {
@@ -510,10 +439,8 @@ body {
   /* Стили */
   border-radius: inherit;
   border: 1px solid rgba(0, 0, 0, 0.17);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   font-weight: normal;
-  -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   list-style: none;
   opacity: 0;
@@ -526,9 +453,7 @@ body {
   text-decoration: none;
   color: #8aa8bd;
   border-bottom: 1px solid #e6e8ea;
-  -webkit-box-shadow: inset 0 1px 0 white;
-          box-shadow: inset 0 1px 0 white;
-  -webkit-transition: all 0.3s ease-out;
+  box-shadow: inset 0 1px 0 white;
   transition: all 0.3s ease-out;
 }
 
