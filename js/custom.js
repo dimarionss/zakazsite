@@ -45,3 +45,8 @@ $(document).ready(function () {
 //         $('.wrapper-dropdown-3').removeClass('active');
 //     });
 // });
+
+function check2() {
+    var url = $('input[name=radio]:checked').val();
+    $(location).attr('href', url);
+}

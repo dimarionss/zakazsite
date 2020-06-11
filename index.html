@@ -28,8 +28,6 @@
       <h3>АННУЛИРУЕТСЯ ЧЕРЕЗ</h3>
     </section>
     <section class="timer">
-      <!-- <h1>01:37:06</h1>
-      <p>час минут секунд</p> -->
       <div id="countdown" class="countdown">
         <div class="countdown-number">
           <span class="hours countdown-time"></span>
@@ -47,62 +45,88 @@
     </section>
     <section class="offers">
       <div class="owl-carousel">
+
+
+
+
         <div class="offer__one offborder">
-          <h2>1 месяц</h2>
-          <div class="offer__around sd__offer1">
-            <div class="text__offer">
-              <p>2 маникюра</p>
-              <p>1 педикюр</p>
-              <p>+ любое покрытие</p>
-            </div>
-            <div class="finger__1"></div>
-            <div class="finger__background">
-              <img src="img/палец1 1.svg" alt="">
-            </div>
+          <div class="form_radio_btn">
+            <input type="radio" id="radio-1" name="radio" value="acceptlist_1.html">
+            <label for="radio-1">
+              <h2>1 месяц</h2>
+              <div class="offer__around sd__offer1">
+                <div class="text__offer">
+                  <p>2 маникюра</p>
+                  <p>1 педикюр</p>
+                  <p>+ любое покрытие</p>
+                </div>
+                <div class="finger__1"></div>
+                <div class="finger__background">
+                  <img src="img/палец1 1.svg" alt="">
+                </div>
+              </div>
+              <h2 class="old_price">5900 ₽</h2>
+              <h1>3900 ₽</h1>
+            </label>
           </div>
-          <h2 class="old_price">5900 ₽</h2>
-          <h1>3900 ₽</h1>
         </div>
+
+
+
         <div class="offer__two offborder">
-          <h2>2 месяца</h2>
-          <div class="offer__around sd__offer2">
-            <div class="text__offer">
-              <p>4 маникюра</p>
-              <p>2 педикюра</p>
-              <p>+ любое покрытие</p>
-            </div>
-            <div class="finger__2"></div>
-            <div class="finger__background">
-              <img src="img/палец2 1.svg" alt="">
-            </div>
+          <div class="form_radio_btn">
+            <input type="radio" id="radio-2" name="radio" value="acceptlist_2.html">
+            <label for="radio-2">
+              <h2>2 месяца</h2>
+              <div class="offer__around sd__offer2">
+                <div class="text__offer">
+                  <p>4 маникюра</p>
+                  <p>2 педикюра</p>
+                  <p>+ любое покрытие</p>
+                </div>
+                <div class="finger__2"></div>
+                <div class="finger__background">
+                  <img src="img/палец2 1.svg" alt="">
+                </div>
+              </div>
+              <h2 class="old_price">11800 ₽</h2>
+              <h1>6900 ₽</h1>
+            </label>
           </div>
-          <h2 class="old_price">11800 ₽</h2>
-          <h1>6900 ₽</h1>
         </div>
+
+
         <div class="offer__three offborder">
-          <h2>3 месяца</h2>
-          <div class="offer__around sd__offer3">
-            <div class="text__offer">
-              <p>6 маникюра</p>
-              <p>4 педикюр</p>
-              <p>+ любое покрытие</p>
-            </div>
-            <div class="finger__3"></div>
-            <div class="finger__background">
-              <img src="img/палец3 1.svg" alt="">
-            </div>
+          <div class="form_radio_btn">
+            <input type="radio" id="radio-3" name="radio" value="acceptlist_3.html">
+            <label for="radio-3">
+              <h2>3 месяца</h2>
+              <div class="offer__around sd__offer3">
+                <div class="text__offer">
+                  <p>6 маникюра</p>
+                  <p>4 педикюр</p>
+                  <p>+ любое покрытие</p>
+                </div>
+                <div class="finger__3"></div>
+                <div class="finger__background">
+                  <img src="img/палец3 1.svg" alt="">
+                </div>
+              </div>
+              <h2 class="old_price">17700 ₽</h2>
+              <h1>9900 ₽</h1>
+            </label>
           </div>
-          <h2 class="old_price">17700 ₽</h2>
-          <h1>9900 ₽</h1>
         </div>
       </div>
+
+
     </section>
     <section class="button">
-      <input type="button" value="купить">
+      <input type="button" value="купить" onclick="check2()">
     </section>
   </div>
 </body>
-<script src="js/custom.js"></script>
+<script src=" js/custom.js"> </script>
 <script src="js/timer.js"></script>
 
 </html>

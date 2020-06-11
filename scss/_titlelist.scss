@@ -20,18 +20,6 @@
 
 .timer {
   text-align: center;
-
-  h1 {
-    font-weight: bold;
-    font-size: 50px;
-    color: #000
-  }
-
-  P {
-    font-weight: 200;
-    margin-bottom: 37px;
-    color: #000
-  }
 }
 
 
@@ -85,3 +73,34 @@
 
 
 }
+
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+
+.form_radio_btn input[type=radio]:checked+label {
+  opacity: 0.7;
+  cursor: text;
+}
+
+
+
+
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 20px;
+  border-radius: 6px;
+  user-select: none;
+}
+
+/* Checked */
+
+
+/* Hover */
+.form_radio_btn label:hover {
+  opacity: 0.7;
+}
+
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled+label {}
