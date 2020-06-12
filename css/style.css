@@ -539,3 +539,24 @@ body {
   font-size: 50px;
   color: #000;
 }
+
+@media (max-width: 320px) {
+  .logo {
+    position: relative;
+  }
+  .logo a {
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    font-size: 50px;
+    color: #000;
+  }
+  .block__buttompay2 .buttom__pay {
+    padding: 10px 9px;
+    width: 150px;
+  }
+  .block__buttompay .buttom__pay {
+    padding: 10px 9px;
+    width: 150px;
+  }
+}
