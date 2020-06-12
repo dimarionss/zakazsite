@@ -389,6 +389,12 @@ body {
   margin-bottom: 15px;
   font-weight: 200;
   font-size: 15px;
+  width: 164px;
+  text-align: center;
+}
+
+.block__buttompay .buttom__pay:active {
+  background-color: #ff808e;
 }
 
 .block__buttompay .buttom__pay:first-child {
@@ -408,6 +414,55 @@ body {
   color: #fff;
 }
 
+.block__buttompay .buttom__pay a:active {
+  background-color: #ff808e;
+}
+
+.block__buttompay2 {
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  flex-wrap: wrap;
+  align-content: space-around;
+  list-style: none;
+}
+
+.block__buttompay2 .buttom__pay {
+  border: 1px solid #ff808e;
+  border-radius: 10px;
+  padding: 15px 18px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  font-size: 15px;
+  width: 164px;
+  text-align: center;
+}
+
+.block__buttompay2 .buttom__pay:active {
+  background-color: #ff808e;
+}
+
+.block__buttompay2 .buttom__pay:nth-child(2n+1) {
+  margin-right: 6px;
+}
+
+.block__buttompay2 .buttom__pay:hover {
+  background-color: #ff808e;
+}
+
+.block__buttompay2 .buttom__pay a {
+  color: #000000;
+  cursor: pointer;
+}
+
+.block__buttompay2 .buttom__pay a:hover {
+  color: #fff;
+}
+
+.block__buttompay2 .buttom__pay a:active {
+  background-color: #ff808e;
+}
+
 .buttom__select {
   text-align: center;
 }
@@ -421,25 +476,10 @@ body {
 
 .wrapper-dropdown-3 {
   /* Размер и позиционирование */
-  position: relative;
   width: 200px;
   margin: 0 auto;
   cursor: pointer;
-  outline: none;
-  margin-bottom: 20px;
-}
-
-.wrapper-dropdown-3:after {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  margin-top: -3px;
-  border-width: 6px 6px 0 6px;
-  border-style: solid;
-  border-color: #8aa8bd transparent;
+  margin-bottom: 25px;
 }
 
 .wrapper-dropdown-3 .dropdown {
@@ -486,4 +526,16 @@ body {
 /* При наведении курсора */
 .wrapper-dropdown-3 .dropdown li:hover a {
   background: #f3f8f8;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo a {
+  position: absolute;
+  left: 45px;
+  top: -5px;
+  font-size: 50px;
+  color: #000;
 }
