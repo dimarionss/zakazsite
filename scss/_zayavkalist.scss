@@ -116,16 +116,19 @@
   flex-wrap: wrap;
   align-content: space-around;
   list-style: none;
+  gap: 0.7vw;
+  grid-template-columns: 165px 165px;
+
 
   .buttom__pay {
     border: 1px solid $offer2;
     border-radius: 10px;
     padding: 15px 18px;
-    margin-bottom: 15px;
     font-weight: 200;
     font-size: 15px;
-    width: 164px;
-    text-align: center;
+    width: 100%;
+
+
 
     &:active {
       background-color: $offer2;
@@ -268,11 +271,37 @@
 
   .block__buttompay2 .buttom__pay {
     padding: 10px 9px;
-    width: 150px;
+    width: 100%;
+    text-align: center;
   }
 
   .block__buttompay .buttom__pay {
     padding: 10px 9px;
     width: 150px;
+  }
+
+  .block__buttompay2 .buttom__pay:nth-child(2n+1) {
+    margin-right: 6px;
+  }
+
+  .block__buttompay2 {
+    grid-gap: 2vw;
+    grid-template-columns: 140px 140px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .logo {
+    position: relative;
+
+    a {
+      position: absolute;
+      left: 0px;
+      top: -9px;
+      font-size: 50px;
+      color: #000;
+    }
+
+    img {}
   }
 }

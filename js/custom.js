@@ -14,7 +14,7 @@ function stateChange() {
 
     obj.style.display =
         (obj.style.display == "none" ?
-            "flex" : "none");
+            "grid" : "none");
 }
 
 
